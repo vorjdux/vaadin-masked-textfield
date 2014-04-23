@@ -1,16 +1,15 @@
 package org.vaadin.addons.maskedtextfield;
 
+import com.vaadin.data.Property;
+import com.vaadin.data.util.converter.StringToNumberConverter;
+import com.vaadin.ui.TextField;
+import org.vaadin.addons.maskedtextfield.client.DecimalFieldState;
+import org.vaadin.addons.maskedtextfield.shared.Utils;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.util.Locale;
-
-import org.vaadin.addons.maskedtextfield.client.DecimalFieldState;
-import org.vaadin.addons.maskedtextfield.shared.Utils;
-
-import com.vaadin.data.Property;
-import com.vaadin.data.util.converter.StringToNumberConverter;
-import com.vaadin.ui.TextField;
 
 public class DecimalField extends TextField {
 

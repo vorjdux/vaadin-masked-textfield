@@ -1,15 +1,14 @@
 package org.vaadin.addons.maskedtextfield;
 
-import java.util.Arrays;
-import java.util.Locale;
-
-import org.vaadin.addons.maskedtextfield.client.MaskedTextFieldState;
-import org.vaadin.addons.maskedtextfield.shared.Utils;
-
 import com.vaadin.data.Property;
 import com.vaadin.data.util.converter.Converter;
 import com.vaadin.data.util.converter.StringToNumberConverter;
 import com.vaadin.ui.TextField;
+import org.vaadin.addons.maskedtextfield.client.MaskedTextFieldState;
+import org.vaadin.addons.maskedtextfield.shared.Utils;
+
+import java.util.Arrays;
+import java.util.Locale;
 
 /**
  * Server side component for the VMaskedTextField widget.
